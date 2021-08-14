@@ -1,8 +1,14 @@
-import random
+from random import randint
+from time import sleep
 print("=== PEDRA, PAPEL OU TESOURA ===")
 esc = (str(input("Você escolhe o que: "))).upper().strip()
+print("JO")
+sleep(0.5)
+print("KEN")
+sleep(0.5)
+print("PO!!!")
 
-cpu = int(random.randint(0, 2))
+cpu = int(randint(0, 2))
 if cpu == 0:
     cpu = "PEDRA"
 elif cpu == 1:
