@@ -1,6 +1,0 @@
-Number = int(input())
-Hours = int(input())
-Salary = float(input())
-CalcSalary = float(Salary * Hours)
-print('NUMBER = {}'.format(Number))
-print('SALARY = U$ {:.2f}'.format(CalcSalary))
